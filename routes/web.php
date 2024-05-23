@@ -13,6 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return '<h1>layout</h1>';
-});
+Route::get('/', [PageController::class, 'index']);

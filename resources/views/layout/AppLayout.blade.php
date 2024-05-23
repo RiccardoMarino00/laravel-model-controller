@@ -6,11 +6,13 @@
     @vite ('resources/js/app.js')
 </head>
 <body>
-    {{-- @include('partials.header')  =====================HEADER=======================  --}}
+     @include('partials.header')  
 
-    <main>
+    {{-- <main>
         @yield('content')
-    </main>
+    </main> --}}
+
+    @include('partials.main')
 
     {{-- @include('partials.footer')     ==================FOOTER=================== --}}
 </body>
